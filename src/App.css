@@ -1,0 +1,60 @@
+body{
+  font-family: Sans-serif;
+}
+.App{
+  margin: 20px;
+}
+#chattingLayout{
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.24);
+}
+#chatList{
+  padding: 20px;
+  flex: 1;
+}
+#sideNav{
+  padding: 0px 30px;
+  width: 20%;
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.11);
+}
+.activePerson{
+  background-color: rgb(156, 156, 231);
+  color: white;
+  padding: 10px;
+}
+#FisrtPersonChat{
+  background-color: rgba(128, 128, 128, 0.315);
+  padding: 20px;
+  border-radius: 1.5vw;
+  width: 50%;
+  margin: 20px 0px;
+}
+#chatDetails > #SecondPersonChat{
+  background-color: rgb(156, 156, 231);
+  padding: 20px;
+  border-radius: 1.5vw;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+}
+textarea{
+  width: 90%;
+  height: 5vw;
+}
+#textField{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin-top: 20px;
+  /* justify-content: center; */
+}
+#sendBtn{
+  padding: 5px 15px;
+  background-color: rgb(156, 156, 231);
+  color: white;
+  border: none;
+  font-size: 1.2vw;
+  cursor: pointer;
+  margin-left: 10px;
+}
